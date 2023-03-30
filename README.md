@@ -17,3 +17,31 @@ In the lot_summary, lot 3 has a variance over 100 and is therefore over the requ
 ![total_summary](total_summary.png)
 ![lot_summary](lot_summary.png)
 
+## T-Tests on Suspension Coils
+Looking at the T-Test results for all three manufacturing lots show that they are not that statistically different than the population mean. 
+
+#### Lot One
+![lot_one](lot_one.png)
+
+#### Lot Two
+![lot_two](lot_two.png)
+
+#### Lot Three
+![lot_three](lot_three.png)
+
+
+## Study Design: MechaCar vs Competition
+I would like to perform an analysis on vehicle weight and vehicle length compared to average miles per gallon. This comparison could be helpful for people looking for larger vehicles but not wanting to sacrifice high miles per gallon.
+
+#### What metric or metrics are you going to test?
+With this study, I would test the vehicle weight and vehicle length compared to miles per gallon.
+
+#### What is the null hypothesis or alternative hypothesis?
+The null hypothesis is that vehicle miles per gallon is not affected by vehicle weight or length.
+The alternative hypothesis is that a larger vehicle weight and length results in lower miles per gallon.
+
+#### What statistical test would you use to test the hypothesis? And why?
+I would use a two sample T-Test to test the hypothesis since I will be using two samples: vehicle length and vehicle weight.
+
+#### What data is needed to run the statistical test?
+The data needed would be vehicle length, vehichle weight, and average miles per gallon.
