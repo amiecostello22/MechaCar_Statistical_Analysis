@@ -1,6 +1,7 @@
 # MechaCar_Statistical_Analysis
 
 ## Linear Regression to Predict MPG
+![Linear Regression Model](linear_regression.png)
 #### -Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 Vehicle Length and Ground Clearance
 #### -Is the slope of the linear model considered to be zero? Why or why not?
